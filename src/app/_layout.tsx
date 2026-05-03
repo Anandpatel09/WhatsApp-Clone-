@@ -5,13 +5,13 @@ import React, { useEffect, useState } from 'react';
 SplashScreen.preventAutoHideAsync();
 
 const RootNavigation = () => {
-  const [isLogin,setIsLogin]=useState(false);
+  const [isLogin,setIsLogin]=useState(true);
   useEffect(()=>{
     SplashScreen.hideAsync();
   },[])
   return (
    <>
-   <Stack/>
+   <Stack screenOptions={{headerShown: false}}/>
    {isLogin ?(<Redirect href={"/(main)"}/>)
    :
    (<Redirect href={"/(auth)"}/>)
