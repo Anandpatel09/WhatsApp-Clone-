@@ -1,4 +1,4 @@
-import { HeaderShownContext } from '@react-navigation/elements'
+import { HeaderShown } from '@react-navigation/elements'
 import { Stack } from 'expo-router'
 import React from 'react'
 
