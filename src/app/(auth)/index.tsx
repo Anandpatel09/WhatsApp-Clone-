@@ -1,10 +1,12 @@
+import { Link } from 'expo-router'
 import React from 'react'
 import { Text, View } from 'react-native'
 
 const Auth = () => {
   return (
-    <View>
+    <View style={{marginTop:20}}>
         <Text>Authentication</Text>
+        <Link href={"/login"}>Login</Link>
     </View>
   )
 }

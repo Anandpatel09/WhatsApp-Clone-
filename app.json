@@ -13,10 +13,10 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        // Missing images below. Uncomment and add files if needed.
-        "foregroundImage": "./src/assets/images/android-icon-foreground.png",
-        "backgroundImage": "./src/assets/images/android-icon-background.png",
-        "monochromeImage": "./src/assets/images/android-icon-monochrome.png"
+          // Missing images below. Uncomment and add files if needed.
+          // "foregroundImage": "./src/assets/images/android-icon-foreground.png",
+          // "backgroundImage": "./src/assets/images/android-icon-background.png",
+          // "monochromeImage": "./src/assets/images/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false
     },
